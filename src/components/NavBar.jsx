@@ -23,8 +23,17 @@ import ItemListContainer from './ItemListContainer';
         <li className="nav-item">
           <a className="nav-link" href='#' >PRODUCTOS</a>
         </li>
+
+        
+        
       </ul>  
+      <div className='cart'>
+    <li className='carrito'>
+       <CartWidgets />   
+        </li>
     </div>
+    </div>
+  
   </div>
 </nav>
 </div>
@@ -36,16 +45,8 @@ import ItemListContainer from './ItemListContainer';
 }
 
  
- const Main = () => {
-   return (
-     <main>
-       <ItemListContainer greeting={'los productos estan en development'} />
-     </main>
-   )
- }
- 
 
- 
+
  export default NavBar;
  
 

@@ -8,13 +8,14 @@ import CartWidgets from './components/CartWidgets';
 
 function App() {
   return (
-     <NavBar />,
- 
-     <CartWidgets />
 
+  
+
+     <NavBar />
 
         
   );
+  <ItemListContainer  greeting={'los productos estan en development'} />
 }
 
 export default App;

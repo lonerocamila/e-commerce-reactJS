@@ -22,4 +22,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# .gitignore tailwind.config.js
+
+#.gitignore package.json
+package.json
+
+#.gitignore package-lock.json
+
+package-lock.json
