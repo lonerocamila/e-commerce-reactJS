@@ -3,9 +3,10 @@ import React from 'react'
 const CartWidgets = () => {
   return (
     <div className='container'>
-    <i className="bi bi-cart" >   (1)</i>
+   <img src="/images/carrito.jpeg" alt="cart" width={32} height={32} />
+   (1)
     </div>
   )
 }
 
-export default CartWidgets
+export default CartWidgets    
