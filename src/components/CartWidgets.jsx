@@ -2,7 +2,9 @@ import React from 'react'
 
 const CartWidgets = () => {
   return (
-    <i class="bi bi-cart">   (1)</i>
+    <div className='container'>
+    <i className="bi bi-cart" >   (1)</i>
+    </div>
   )
 }
 

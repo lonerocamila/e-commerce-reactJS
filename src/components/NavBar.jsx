@@ -2,8 +2,14 @@ import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import CartWidgets from './CartWidgets';
 
-import ItemListContainer from './ItemListContainer';
 
+import { FaBeer } from 'react-icons/fa';
+
+class Question extends React.Component {
+  render() {
+    return <h3> Lets go for a <FaBeer />? </h3>
+  }
+}
 
  const NavBar = () => {
   return (
